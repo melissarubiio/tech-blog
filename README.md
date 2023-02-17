@@ -8,6 +8,7 @@ This tech blog is made to discuss information on technology. The user can ask a 
 - [Usage](#Usage)
 - [Collaborator](#Collaborator)
 - [Usernames](#Usernames)
+- [Links](#Links)
 
 ## Mock-up 
 ![](/images/login.png)
@@ -23,4 +24,8 @@ node server
 npm run test
 ## Usernames
 GitHub Username: [melissarubiio](https://github.com/melissarubiio)
+
+## Links
+- [Github](https://github.com/melissarubiio/tech-blog)
+- [Heroku](https://tech-bl0g.herokuapp.com/)
 
