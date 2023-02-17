@@ -1,0 +1,16 @@
+<div class="centerCards">
+    <div class="blogCard">
+        <p class="cardQuestion">Edit Post</p>
+    </div>
+    <form class="log" id="edit-form">
+        <input type="hidden" id="blogId" value="{{post.id}}" />
+        <label class="loginInput" for="post-title">Title</label>
+        <input class="titleInput" type="text" value="{{post.title}}" id="editTitle">
+        <label class="loginInput" for="post-content">Content</label>
+        <textarea class="commentInput" id="editContent">{{post.content}}</textarea>
+        <button class="loginButton" type="submit" id="updateButton">Update</button>
+        <button class="loginButton" type="submit" id="deleteButton">Delete</button>
+    </form>
+</div>
+<script src="/js/edit.js"></script>
+<script src="/js/delete.js"></script>

@@ -1,0 +1,9 @@
+{{#each posts}}
+<div class="centerCards">
+    <div class="blogCard">
+       <a href="/blog/{{id}}"><p class="cardQuestion">{{title}}</p></a> 
+        <p>Posted by {{user.username}} on {{format_date createdAt}}</p>
+    </div>
+    <div class="cardAnswer">{{content}}</div>
+</div>
+{{/each}}

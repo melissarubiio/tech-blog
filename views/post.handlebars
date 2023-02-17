@@ -1,0 +1,10 @@
+{{#each posts}}
+<a href="/dashboard/edit/{{id}}">
+<div class="centerCards">
+    <div class="dashBlogCard">
+        <p class="cardQuestion">{{title}}</p>
+        <p>{{format_date createdAt}}</p>
+    </div>
+</div>
+</a>
+{{/each}}

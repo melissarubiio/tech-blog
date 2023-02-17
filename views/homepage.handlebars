@@ -1,0 +1,32 @@
+<div class="centerCards">
+    <div class="blogCard">
+    <a href="/"><p class="cardQuestion">{{post.title}}</p></a> 
+        <p>Posted by {{post.user.username}} on {{format_date post.createdAt}}</p>
+    </div>
+    <div class="cardAnswer">{{post.content}}</div>
+</div>
+
+{{#if post.comment}}
+<div class="centerCards">
+    <div class="blogCard"><p class="cardQuestion"></p></div>
+    <div class="log">
+        {{#each post.comment}}
+        <p>{{comment}}</p>
+        <p> &mdash; {{user.username}}, {{format_date createdAt}}</p>
+        {{/each}}
+    </div> 
+</div>
+{{/if}}
+
+
+<div class="centerCards">
+    <div class="blogCard"><p class="cardQuestion"></p></div>
+    <form class="log" id="comment-form">
+        <input type="hidden" id="blogId" value="{{blog.id}}" />
+        <label class="loginInput">Comment</label>
+        <textarea class="commentInput" type="text" id="comment"></textarea>
+        <button class="loginButton" type="submit" id="commentButton">Submit</button>
+    </form>
+</div>
+
+<script src="/js/comment.js"></script>

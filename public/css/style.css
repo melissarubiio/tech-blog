@@ -1,0 +1,152 @@
+header {
+    color: white;
+    background-color: rgb(255, 1, 1);
+    border-radius: 5px;
+    text-align: center;
+    font-size: 20px;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+}
+
+li {
+    padding: 20px 30px;
+}
+
+a:link {
+    text-decoration: none;
+    color: white;
+}
+
+a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+h1 span {
+    color: black;
+    background-color: white;
+    margin-left: 70px;
+    padding: 0px 10px 1px 10px;
+    position: relative;
+    bottom: 20px;
+    border-radius: 5px;
+}
+
+body {
+    background-color: rgb(175, 175, 175);
+}
+
+.centerCards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.blogCard {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90%;
+    color: white;
+    background-color: rgb(252, 0, 0);
+    padding: 0px 15px;
+    border-radius: 5px;
+}
+
+.cardQuestion {
+    font-weight: bold;
+}
+
+.cardAnswer {
+    width: 90%;
+    padding: 13px;
+    border: 2px solid rgb(183, 115, 115);
+    border-radius: 5px;
+}
+
+.log {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    padding: 13px;
+    border: 2px solid rgb(196, 137, 137);
+}
+
+.loginInput {
+    font-size: 17px;
+}
+
+.userInput {
+    border: none;
+    padding: 10px 250px 10px 12px;
+    margin-bottom: 10px;
+}
+
+.loginButton {
+    color: rgb(0, 0, 0);
+    background-color: pastelgreen;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 131px 10px 131px;
+    font-size: 17px;
+    margin-top: 5px;
+}
+
+.loginButton:hover {
+    color: white;
+    background-color: rgba(233, 12, 12, 0.487);
+    cursor: pointer;
+}
+
+.logInstead {
+    color: rgb(7, 1, 1);
+    font-size: 17px;
+}
+
+.newPost {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+#newPost {
+    color: white;
+    background-color: rgb(249, 5, 5);
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 18px;
+}
+
+.commentInput {
+    border: 3px solid pastelgreen;
+    padding: 10px 250px 50px 12px;
+    margin-bottom: 10px;
+}
+
+.titleInput {
+    border: 3px solid pastelgreen;
+    padding: 10px 250px 10px 12px;
+    margin-bottom: 10px;
+}
+
+.dashBlogCard {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90%;
+    color: rgb(0, 0, 0);
+    background-color: pastelgreen;
+    border-radius: 5px;
+    padding: 0px 15px;
+}
+
+.dashBlogCard:hover {
+    color: rgb(0, 0, 0);
+    background-color: rgb(111, 114, 112);
+}
